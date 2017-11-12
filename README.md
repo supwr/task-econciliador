@@ -1,4 +1,4 @@
-###Teste Prático
+### Teste Prático
 
 Com a intenção de avaliar conhecimentos técnicos em quesitos de organização, padronização, boas práticas, orientação a objetos, design patterns e uso de ferramentas. Temos um teste simples, nada de testes chatos e mais mão na massa. Funciona assim, você vai desenvolver uma aplicação para exibir dados estatístico sobre um repositório no github consumindo a API do github. Ao final, você deve subir a aplicação no github e hospedar numa PaaS.
 

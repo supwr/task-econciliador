@@ -5,7 +5,8 @@
     "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
         "psr-4": {
-            "AppBundle\\": "src/AppBundle"
+            "AppBundle\\": "src/AppBundle",
+            "GitHubClient\\": "src/GitHubClient"
         },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
@@ -16,9 +17,12 @@
         "php": ">=5.6.0",
         "doctrine/doctrine-bundle": "~1.4",
         "doctrine/orm": "^2.4.8",
+        "guzzle/guzzle": "^3.9",
+        "guzzlehttp/guzzle": "^6.3",
         "incenteev/composer-parameter-handler": "~2.0",
         "sensio/distribution-bundle": "~4.0",
         "sensio/framework-extra-bundle": "^3.0.2",
+        "symfony/event-dispatcher": "2.1.11",
         "symfony/monolog-bundle": "^3.0.2",
         "symfony/swiftmailer-bundle": "~2.3,>=2.3.10",
         "symfony/symfony": "2.8.*",
